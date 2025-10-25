@@ -1,0 +1,15 @@
+{
+  "name": "discord-dm-debugger",
+  "version": "1.0.0",
+  "description": "A simple bot to debug DM reception on Render.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "express": "^4.18.2",
+    "axios": "^1.6.8", 
+    "@supabase/supabase-js": "^2.39.0"
+  }
+}
