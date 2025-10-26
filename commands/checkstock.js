@@ -39,6 +39,10 @@ module.exports = {
         user_id: message.author.id,
       });
     } catch (err) {
+      // --- ADD THIS LINE ---
+      console.error('Full n8n trigger error:', err); 
+      // ---
+      
       console.error('Failed to trigger n8n stock check:', err.message);
       await message.reply('Sorry, my "Runner" for that site seems to be offline.');
     }
