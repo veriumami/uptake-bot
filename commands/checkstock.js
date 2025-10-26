@@ -17,8 +17,8 @@ module.exports = {
       targetWebhook = process.env.N8N_CLASSIC_SHOPIFY_WEBHOOK;
     } else if (url.includes('shoepalace.com')) {
       targetWebhook = process.env.N8N_SHOE_PALACE_WEBHOOK;
-    } else if (url.includes('footlocker.com')) {
-      targetWebhook = process.env.N8N_FOOTLOCKER_WEBHOOK;
+    } else if (url.includes('kidsfootlocker.com')) {
+      targetWebhook = process.env.N8N_KIDSFOOTLOCKER_WEBHOOK;
     } else {
       await message.reply('Sorry, I do not support that website yet.');
       return;
